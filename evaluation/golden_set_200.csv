@@ -1,0 +1,201 @@
+eval_id,text,true_intent,true_escalate,trigger_type,complexity_tier
+1,Your bank is absolute trash u useless thiefs! Unlock my account or go to hell @ChaseSupport,General_Banking_Inquiry,True,profanity_abuse,abusive
+2,Fuck you @ChaseSupport you stole my money and declined my card at grocery store!,Card_Transaction_Dispute,True,profanity_abuse,abusive
+3,Stupid worthless app crashed again while transferring money fix it @ChaseSupport,Wire_Transfer_Payment_Issue,True,profanity_abuse,abusive
+4,"@ChaseSupport you dumb piece of shit team where is my $3,000 wire transfer???",Wire_Transfer_Payment_Issue,True,profanity_abuse,abusive
+5,Stop scamming customers you greedy bastards refund my overdraft fee @ChaseSupport,Card_Transaction_Dispute,True,profanity_abuse,abusive
+6,Your customer support is total bullcrap. Connect me to a real human manager @ChaseSupport,General_Banking_Inquiry,True,profanity_abuse,abusive
+7,Get your head out of your ass @ChaseSupport and fix my locked online banking!,Account_Access_Security,True,profanity_abuse,abusive
+8,Worst financial institution on earth you guys are damn incompetent @ChaseSupport,General_Banking_Inquiry,True,profanity_abuse,abusive
+9,"If my $12,000 wire transfer is not released by tomorrow I am filing a lawsuit against Chase @ChaseSupport",Wire_Transfer_Payment_Issue,True,legal_threat,severe_risk
+10,My attorney will be contacting Chase legal department regarding unauthorized debit card charges @ChaseSupport,Card_Transaction_Dispute,True,legal_threat,severe_risk
+11,I am reporting Chase to the Consumer Financial Protection Bureau CFPB and State AG for fraud @ChaseSupport,Card_Transaction_Dispute,True,legal_threat,severe_risk
+12,This data breach violates banking regulations! My legal counsel is initiating court action @ChaseSupport,Account_Access_Security,True,legal_threat,severe_risk
+13,I am filing a formal police report for identity theft and wire fraud on my account @ChaseSupport,Wire_Transfer_Payment_Issue,True,legal_threat,severe_risk
+14,Arbitration claim initiated for fraudulent interest charges @ChaseSupport,Card_Transaction_Dispute,True,legal_threat,severe_risk
+15,Sending a formal cease and desist notice to Chase legal compliance team @ChaseSupport,General_Banking_Inquiry,True,legal_threat,severe_risk
+16,"Unauthorized wire transfer of $8,500 sent from my checking account without my consent @ChaseSupport EMERGENCY",Wire_Transfer_Payment_Issue,True,financial_fraud,severe_risk
+17,"Someone hacked my business account and drained $25,000 in unauthorized ACH debits @ChaseSupport HELP!",Account_Access_Security,True,financial_fraud,severe_risk
+18,My entire monthly paycheck was deducted twice by mistake on transaction #881920 @ChaseSupport,Card_Transaction_Dispute,True,financial_fraud,severe_risk
+19,Stolen identity used to open fraudulent Chase Sapphire credit card in my name @ChaseSupport,Account_Access_Security,True,financial_fraud,severe_risk
+20,"Skimmer copied my debit card and drained $3,500 from ATM cash withdrawal @ChaseSupport",Card_Transaction_Dispute,True,financial_fraud,severe_risk
+21,"Fraudulent vendor processed 10 unauthorized charges totaling $4,000 @ChaseSupport",Card_Transaction_Dispute,True,financial_fraud,severe_risk
+22,"Account charged $2,200 for international wire transfer I never authorized @ChaseSupport",Wire_Transfer_Payment_Issue,True,financial_fraud,severe_risk
+23,Bank notified me of suspicious debit card activity across 8 fraudulent transactions @ChaseSupport,Card_Transaction_Dispute,True,financial_fraud,severe_risk
+24,HACKER CHANGED MY EMAIL AND PASSWORD ON CHASE BANK ACCOUNT! I CANNOT LOG IN @ChaseSupport,Account_Access_Security,True,account_security,severe_risk
+25,Received security alert that someone logged into my online banking from Russia @ChaseSupport,Account_Access_Security,True,account_security,severe_risk
+26,My phone was stolen and someone is making Zelle transfers from my banking app @ChaseSupport,Account_Access_Security,True,account_security,severe_risk
+27,2FA OTP codes sent to unfamiliar phone number ending in 99! Account hijacked @ChaseSupport,Account_Access_Security,True,account_security,severe_risk
+28,Password reset email sent but hacker locked me out of primary email inbox @ChaseSupport,Account_Access_Security,True,account_security,severe_risk
+29,Someone added 2 unauthorized wire beneficiaries to my business banking profile @ChaseSupport,Account_Access_Security,True,account_security,severe_risk
+30,Emergency account lock request: my banking credentials leaked online @ChaseSupport,Account_Access_Security,True,account_security,severe_risk
+31,My debit card replacement was delayed AND you charged me a $35 overdraft fee! @ChaseSupport,Card_Management_Issuance,False,none,multi_intent
+32,App crashes every time I try to initiate a transaction dispute for order #99210 @ChaseSupport,Card_Transaction_Dispute,False,none,multi_intent
+33,Locked out of online banking so I can't check if my international wire transfer cleared @ChaseSupport,Account_Access_Security,False,none,multi_intent
+34,Zelle payment failed on mobile app and my account balance was debited twice @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,multi_intent
+35,Replacement credit card delivered but my app still shows old card active @ChaseSupport,Card_Management_Issuance,False,none,multi_intent
+36,Can I change my billing address while requesting a replacement debit card? @ChaseSupport,Card_Management_Issuance,False,none,multi_intent
+37,OTP code SMS failing on phone and I need to check my wire transfer status @ChaseSupport,Account_Access_Security,False,none,multi_intent
+38,ATM ate my debit card and I need to file a dispute for the cash deposit @ChaseSupport,Card_Management_Issuance,False,none,multi_intent
+39,Need to cancel recurring subscription charge and order a new checkbook @ChaseSupport,Card_Transaction_Dispute,False,none,multi_intent
+40,Mobile deposit check rejected and my account fee waiver was removed @ChaseSupport,General_Banking_Inquiry,False,none,multi_intent
+41,wire transfer status pls??? #88129 @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,edge_case
+42,wer is my replacmnt debit card it say deliverd 2 days ago but nthin in mailbox @ChaseSupport,Card_Management_Issuance,False,none,edge_case
+43,refund status for fraudulent charge 992-120914??? @ChaseSupport,Card_Transaction_Dispute,False,none,edge_case
+44,cant log in opt SMS code not comin to my mob phone @ChaseSupport,Account_Access_Security,False,none,edge_case
+45,app crash on zelle payment update fix plzzz @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,edge_case
+46,how long take refund to debit card balance @ChaseSupport,Card_Transaction_Dispute,False,none,edge_case
+47,atm machine ate card in branch drive thru @ChaseSupport,Card_Management_Issuance,False,none,edge_case
+48,online banking error code 5004 on mobile app fix @ChaseSupport,Account_Access_Security,False,none,edge_case
+49,is branch open saturday for check deposit @ChaseSupport,General_Banking_Inquiry,False,none,edge_case
+50,forgot my pass reset email missing spam folder @ChaseSupport,Account_Access_Security,False,none,edge_case
+51,Unauthorized charge of $45.00 on debit card for order #10051 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+52,Merchant processed double payment on transaction #10052 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+53,How do I update 2FA phone number for user_10053@chase.com @ChaseSupport,Account_Access_Security,False,none,standard
+54,Forgot online banking password reset link expired for account 10054 @ChaseSupport,Account_Access_Security,False,none,standard
+55,Pending wire transfer reference #10055 delayed by 2 days @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+56,Zelle payment failed to clear for transaction #10056 @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+57,When will my replacement debit card tracking #10057 arrive? @ChaseSupport,Card_Management_Issuance,False,none,standard
+58,How do I activate my new credit card ending in 10058 @ChaseSupport,Card_Management_Issuance,False,none,standard
+59,What are the local branch operating hours for branch #10059 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+60,How do I download monthly account statement PDF for account 10060 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+61,Unauthorized charge of $45.00 on debit card for order #10061 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+62,Merchant processed double payment on transaction #10062 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+63,How do I update 2FA phone number for user_10063@chase.com @ChaseSupport,Account_Access_Security,False,none,standard
+64,Forgot online banking password reset link expired for account 10064 @ChaseSupport,Account_Access_Security,False,none,standard
+65,Pending wire transfer reference #10065 delayed by 2 days @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+66,Zelle payment failed to clear for transaction #10066 @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+67,When will my replacement debit card tracking #10067 arrive? @ChaseSupport,Card_Management_Issuance,False,none,standard
+68,How do I activate my new credit card ending in 10068 @ChaseSupport,Card_Management_Issuance,False,none,standard
+69,What are the local branch operating hours for branch #10069 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+70,How do I download monthly account statement PDF for account 10070 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+71,Unauthorized charge of $45.00 on debit card for order #10071 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+72,Merchant processed double payment on transaction #10072 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+73,How do I update 2FA phone number for user_10073@chase.com @ChaseSupport,Account_Access_Security,False,none,standard
+74,Forgot online banking password reset link expired for account 10074 @ChaseSupport,Account_Access_Security,False,none,standard
+75,Pending wire transfer reference #10075 delayed by 2 days @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+76,Zelle payment failed to clear for transaction #10076 @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+77,When will my replacement debit card tracking #10077 arrive? @ChaseSupport,Card_Management_Issuance,False,none,standard
+78,How do I activate my new credit card ending in 10078 @ChaseSupport,Card_Management_Issuance,False,none,standard
+79,What are the local branch operating hours for branch #10079 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+80,How do I download monthly account statement PDF for account 10080 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+81,Unauthorized charge of $45.00 on debit card for order #10081 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+82,Merchant processed double payment on transaction #10082 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+83,How do I update 2FA phone number for user_10083@chase.com @ChaseSupport,Account_Access_Security,False,none,standard
+84,Forgot online banking password reset link expired for account 10084 @ChaseSupport,Account_Access_Security,False,none,standard
+85,Pending wire transfer reference #10085 delayed by 2 days @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+86,Zelle payment failed to clear for transaction #10086 @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+87,When will my replacement debit card tracking #10087 arrive? @ChaseSupport,Card_Management_Issuance,False,none,standard
+88,How do I activate my new credit card ending in 10088 @ChaseSupport,Card_Management_Issuance,False,none,standard
+89,What are the local branch operating hours for branch #10089 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+90,How do I download monthly account statement PDF for account 10090 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+91,Unauthorized charge of $45.00 on debit card for order #10091 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+92,Merchant processed double payment on transaction #10092 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+93,How do I update 2FA phone number for user_10093@chase.com @ChaseSupport,Account_Access_Security,False,none,standard
+94,Forgot online banking password reset link expired for account 10094 @ChaseSupport,Account_Access_Security,False,none,standard
+95,Pending wire transfer reference #10095 delayed by 2 days @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+96,Zelle payment failed to clear for transaction #10096 @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+97,When will my replacement debit card tracking #10097 arrive? @ChaseSupport,Card_Management_Issuance,False,none,standard
+98,How do I activate my new credit card ending in 10098 @ChaseSupport,Card_Management_Issuance,False,none,standard
+99,What are the local branch operating hours for branch #10099 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+100,How do I download monthly account statement PDF for account 10100 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+101,Unauthorized charge of $45.00 on debit card for order #10101 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+102,Merchant processed double payment on transaction #10102 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+103,How do I update 2FA phone number for user_10103@chase.com @ChaseSupport,Account_Access_Security,False,none,standard
+104,Forgot online banking password reset link expired for account 10104 @ChaseSupport,Account_Access_Security,False,none,standard
+105,Pending wire transfer reference #10105 delayed by 2 days @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+106,Zelle payment failed to clear for transaction #10106 @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+107,When will my replacement debit card tracking #10107 arrive? @ChaseSupport,Card_Management_Issuance,False,none,standard
+108,How do I activate my new credit card ending in 10108 @ChaseSupport,Card_Management_Issuance,False,none,standard
+109,What are the local branch operating hours for branch #10109 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+110,How do I download monthly account statement PDF for account 10110 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+111,Unauthorized charge of $45.00 on debit card for order #10111 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+112,Merchant processed double payment on transaction #10112 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+113,How do I update 2FA phone number for user_10113@chase.com @ChaseSupport,Account_Access_Security,False,none,standard
+114,Forgot online banking password reset link expired for account 10114 @ChaseSupport,Account_Access_Security,False,none,standard
+115,Pending wire transfer reference #10115 delayed by 2 days @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+116,Zelle payment failed to clear for transaction #10116 @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+117,When will my replacement debit card tracking #10117 arrive? @ChaseSupport,Card_Management_Issuance,False,none,standard
+118,How do I activate my new credit card ending in 10118 @ChaseSupport,Card_Management_Issuance,False,none,standard
+119,What are the local branch operating hours for branch #10119 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+120,How do I download monthly account statement PDF for account 10120 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+121,Unauthorized charge of $45.00 on debit card for order #10121 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+122,Merchant processed double payment on transaction #10122 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+123,How do I update 2FA phone number for user_10123@chase.com @ChaseSupport,Account_Access_Security,False,none,standard
+124,Forgot online banking password reset link expired for account 10124 @ChaseSupport,Account_Access_Security,False,none,standard
+125,Pending wire transfer reference #10125 delayed by 2 days @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+126,Zelle payment failed to clear for transaction #10126 @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+127,When will my replacement debit card tracking #10127 arrive? @ChaseSupport,Card_Management_Issuance,False,none,standard
+128,How do I activate my new credit card ending in 10128 @ChaseSupport,Card_Management_Issuance,False,none,standard
+129,What are the local branch operating hours for branch #10129 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+130,How do I download monthly account statement PDF for account 10130 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+131,Unauthorized charge of $45.00 on debit card for order #10131 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+132,Merchant processed double payment on transaction #10132 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+133,How do I update 2FA phone number for user_10133@chase.com @ChaseSupport,Account_Access_Security,False,none,standard
+134,Forgot online banking password reset link expired for account 10134 @ChaseSupport,Account_Access_Security,False,none,standard
+135,Pending wire transfer reference #10135 delayed by 2 days @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+136,Zelle payment failed to clear for transaction #10136 @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+137,When will my replacement debit card tracking #10137 arrive? @ChaseSupport,Card_Management_Issuance,False,none,standard
+138,How do I activate my new credit card ending in 10138 @ChaseSupport,Card_Management_Issuance,False,none,standard
+139,What are the local branch operating hours for branch #10139 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+140,How do I download monthly account statement PDF for account 10140 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+141,Unauthorized charge of $45.00 on debit card for order #10141 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+142,Merchant processed double payment on transaction #10142 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+143,How do I update 2FA phone number for user_10143@chase.com @ChaseSupport,Account_Access_Security,False,none,standard
+144,Forgot online banking password reset link expired for account 10144 @ChaseSupport,Account_Access_Security,False,none,standard
+145,Pending wire transfer reference #10145 delayed by 2 days @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+146,Zelle payment failed to clear for transaction #10146 @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+147,When will my replacement debit card tracking #10147 arrive? @ChaseSupport,Card_Management_Issuance,False,none,standard
+148,How do I activate my new credit card ending in 10148 @ChaseSupport,Card_Management_Issuance,False,none,standard
+149,What are the local branch operating hours for branch #10149 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+150,How do I download monthly account statement PDF for account 10150 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+151,Unauthorized charge of $45.00 on debit card for order #10151 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+152,Merchant processed double payment on transaction #10152 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+153,How do I update 2FA phone number for user_10153@chase.com @ChaseSupport,Account_Access_Security,False,none,standard
+154,Forgot online banking password reset link expired for account 10154 @ChaseSupport,Account_Access_Security,False,none,standard
+155,Pending wire transfer reference #10155 delayed by 2 days @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+156,Zelle payment failed to clear for transaction #10156 @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+157,When will my replacement debit card tracking #10157 arrive? @ChaseSupport,Card_Management_Issuance,False,none,standard
+158,How do I activate my new credit card ending in 10158 @ChaseSupport,Card_Management_Issuance,False,none,standard
+159,What are the local branch operating hours for branch #10159 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+160,How do I download monthly account statement PDF for account 10160 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+161,Unauthorized charge of $45.00 on debit card for order #10161 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+162,Merchant processed double payment on transaction #10162 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+163,How do I update 2FA phone number for user_10163@chase.com @ChaseSupport,Account_Access_Security,False,none,standard
+164,Forgot online banking password reset link expired for account 10164 @ChaseSupport,Account_Access_Security,False,none,standard
+165,Pending wire transfer reference #10165 delayed by 2 days @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+166,Zelle payment failed to clear for transaction #10166 @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+167,When will my replacement debit card tracking #10167 arrive? @ChaseSupport,Card_Management_Issuance,False,none,standard
+168,How do I activate my new credit card ending in 10168 @ChaseSupport,Card_Management_Issuance,False,none,standard
+169,What are the local branch operating hours for branch #10169 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+170,How do I download monthly account statement PDF for account 10170 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+171,Unauthorized charge of $45.00 on debit card for order #10171 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+172,Merchant processed double payment on transaction #10172 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+173,How do I update 2FA phone number for user_10173@chase.com @ChaseSupport,Account_Access_Security,False,none,standard
+174,Forgot online banking password reset link expired for account 10174 @ChaseSupport,Account_Access_Security,False,none,standard
+175,Pending wire transfer reference #10175 delayed by 2 days @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+176,Zelle payment failed to clear for transaction #10176 @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+177,When will my replacement debit card tracking #10177 arrive? @ChaseSupport,Card_Management_Issuance,False,none,standard
+178,How do I activate my new credit card ending in 10178 @ChaseSupport,Card_Management_Issuance,False,none,standard
+179,What are the local branch operating hours for branch #10179 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+180,How do I download monthly account statement PDF for account 10180 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+181,Unauthorized charge of $45.00 on debit card for order #10181 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+182,Merchant processed double payment on transaction #10182 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+183,How do I update 2FA phone number for user_10183@chase.com @ChaseSupport,Account_Access_Security,False,none,standard
+184,Forgot online banking password reset link expired for account 10184 @ChaseSupport,Account_Access_Security,False,none,standard
+185,Pending wire transfer reference #10185 delayed by 2 days @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+186,Zelle payment failed to clear for transaction #10186 @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+187,When will my replacement debit card tracking #10187 arrive? @ChaseSupport,Card_Management_Issuance,False,none,standard
+188,How do I activate my new credit card ending in 10188 @ChaseSupport,Card_Management_Issuance,False,none,standard
+189,What are the local branch operating hours for branch #10189 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+190,How do I download monthly account statement PDF for account 10190 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+191,Unauthorized charge of $45.00 on debit card for order #10191 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+192,Merchant processed double payment on transaction #10192 @ChaseSupport,Card_Transaction_Dispute,False,none,standard
+193,How do I update 2FA phone number for user_10193@chase.com @ChaseSupport,Account_Access_Security,False,none,standard
+194,Forgot online banking password reset link expired for account 10194 @ChaseSupport,Account_Access_Security,False,none,standard
+195,Pending wire transfer reference #10195 delayed by 2 days @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+196,Zelle payment failed to clear for transaction #10196 @ChaseSupport,Wire_Transfer_Payment_Issue,False,none,standard
+197,When will my replacement debit card tracking #10197 arrive? @ChaseSupport,Card_Management_Issuance,False,none,standard
+198,How do I activate my new credit card ending in 10198 @ChaseSupport,Card_Management_Issuance,False,none,standard
+199,What are the local branch operating hours for branch #10199 @ChaseSupport,General_Banking_Inquiry,False,none,standard
+200,How do I download monthly account statement PDF for account 10200 @ChaseSupport,General_Banking_Inquiry,False,none,standard
